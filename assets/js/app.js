@@ -55,7 +55,7 @@ $(".slider-1").slick({
     {
       breakpoint: 1300,
       settings: {
-        slidesToShow: 6,
+        slidesToShow: 5,
         autoplay: true,
         speed: 3000,
         slidesToScroll: 1,
@@ -79,7 +79,7 @@ $(".slider-1").slick({
     {
       breakpoint: 650,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplaySpeed: 0,
         cssEase: "Linear",

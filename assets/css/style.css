@@ -212,15 +212,7 @@
   transform: translateY(-10px);
 }
 
-/* .elipse-main {
-  width: 489.097px;
-  height: 476.411px;
-  flex-shrink: 0;
-  border-radius: 489.097px;
-  opacity: 0.3;
-  background: #06f;
-  filter: blur(100px);
-}
+
 
 .elipse-header {
   width: 299.329px;
@@ -230,7 +222,21 @@
   opacity: 0.4;
   background: #1673ff;
   filter: blur(100px);
-} */
+}
+.elipse-slider {
+  width: 200.329px;
+  height: 200.657px;
+  flex-shrink: 0;
+  border-radius: 303.657px;
+  opacity: 0.4;
+  background: #1673ff;
+  filter: blur(100px);
+}
+
+.plan-elipse-1{
+  left: 40%;
+  top: 20%;
+}
 
 .work {
   top: 30%;
@@ -248,8 +254,8 @@
 }
 
 .slider-elipse {
-  left: 40%;
-  top: 10%;
+  left: 45%;
+  top: 30%;
 }
 
 .coin-elipse {
@@ -627,6 +633,9 @@
   cursor: pointer;
 }
 
+.box{
+  width: 100%;
+}
 .active h3 {
   color: var(--color-light-blue) !important;
 }
@@ -1141,5 +1150,14 @@
 
   .last-section-box {
     max-width: 250px;
+  }
+  .elipse-header {
+    width: 150.329px;
+    height: 200.657px;
+   
+  }
+  .slider-elipse {
+width: 100px;
+height: 100px;
   }
 }
